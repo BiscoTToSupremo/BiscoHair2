@@ -553,7 +553,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: AR Camera
+  cameraUsageDescription: Questa app ha bisogno di accedere alla fotocamera del dispositivo
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
