@@ -1,51 +1,34 @@
-Shader "Custom/WaveShader" {
-    Properties {
-        _Color ("Color", Color) = (0.0, 0.5, 1.0, 1.0)
-        _Frequency ("Wave Frequency", Float) = 1.0
-        _Amplitude ("Wave Amplitude", Float) = 0.1
-        _Speed ("Wave Speed", Float) = 1.0
+using UnityEngine;
+
+public class WaveMesh : MonoBehaviour
+{
+    private Mesh mesh;
+    private Vector3[] originalVertices;
+    public float frequency = 1.0f;
+    public float amplitude = 1.0f;
+    public float speed = 1.0f;
+
+    void Start()
+    {
+        mesh = GetComponent<MeshFilter>().mesh; // Ottieni la mesh del plane
+        originalVertices = mesh.vertices; // Salva i vertici originali
     }
-    SubShader {
-        Pass {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #include "UnityCG.cginc"
 
-            struct appdata {
-                float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
-            };
+    void Update()
+    {
+        AnimateWave(); // Chiama la funzione che anima l'onda
+    }
 
-            struct v2f {
-                float2 uv : TEXCOORD0;
-                float4 vertex : SV_POSITION;
-            };
-
-            float _Frequency;
-            float _Amplitude;
-            float _Speed;
-            float4 _Color;
-
-            v2f vert(appdata v) {
-                v2f o;
-
-                // Applicare l'onda lungo l'asse X per deformare l'oggetto in modo ondulato
-                float wave = sin(v.vertex.x * _Frequency + _Time.y * _Speed) * _Amplitude;
-
-                // Sposta solo i vertici lungo l'asse Y con la sinusoide
-                v.vertex.y += wave;
-
-                // Trasformare il vertice nello spazio di clip per il rendering
-                o.vertex = UnityObjectToClipPos(v.vertex);
-                o.uv = v.uv;
-                return o;
-            }
-
-            fixed4 frag(v2f i) : SV_Target {
-                return _Color; // Restituisce il colore impostato
-            }
-            ENDCG
+    void AnimateWave()
+    {
+        Vector3[] vertices = new Vector3[originalVertices.Length];
+        for (int i = 0; i < vertices.Length; i++)
+        {
+            Vector3 vertex = originalVertices[i];
+            vertex.y += Mathf.Sin(Time.time * speed + vertex.x * frequency) * amplitude;
+            vertices[i] = vertex;
         }
+        mesh.vertices = vertices; // Applica i nuovi vertici
+        mesh.RecalculateNormals(); // Ricalcola le normali della mesh per illuminazione corretta
     }
 }
