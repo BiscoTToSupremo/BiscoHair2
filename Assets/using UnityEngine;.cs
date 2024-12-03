@@ -15,6 +15,7 @@ public class SceneSwitcher : MonoBehaviour
     }
 
     // Funzione che viene chiamata quando si clicca il bottone
+    int i=0;
     void OnButtonClick()
     {
         // Controlla se hai il permesso per usare la fotocamera
@@ -27,10 +28,19 @@ public class SceneSwitcher : MonoBehaviour
         {
             // Chiedi il permesso per usare la fotocamera
             Permission.RequestUserPermission(Permission.Camera);
+            i++;
+            if (i==2)
+            {
+                Console.WriteLine("Il permesso non è stato concesso.");
+            }
+            else
+            {
+                void OnButtonClick();
+
+            }
+            
         }
 
-        // Cambia scena (usa il nome della scena che desideri)
-        SceneManager.LoadScene("NomeDellaTuaScena");
     }
 
     // Funzione per aprire la fotocamera anteriore
