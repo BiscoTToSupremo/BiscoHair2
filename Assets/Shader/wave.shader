@@ -1,34 +1,74 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class WaveMesh : MonoBehaviour
+public class SwipeWave : MonoBehaviour
 {
-    private Mesh mesh;
-    private Vector3[] originalVertices;
-    public float frequency = 1.0f;
-    public float amplitude = 1.0f;
-    public float speed = 1.0f;
+    private Vector3 startPos;
+    private Vector3 endPos;
+    private bool isSwiping = false;
+    private float swipeSpeed = 5f;
+    private float changeSceneHeight = 10f; // L'altezza a cui l'onda triggera il cambio scena
+
+    // Riferimento alla camera per rilevare lo swipe
+    private Camera mainCamera;
+
+    // Variabili per tracciare il movimento dello swipe
+    private Vector2 touchStartPos;
+    private Vector2 touchEndPos;
 
     void Start()
     {
-        mesh = GetComponent<MeshFilter>().mesh; // Ottieni la mesh del plane
-        originalVertices = mesh.vertices; // Salva i vertici originali
+        startPos = transform.position;
+        mainCamera = Camera.main;
     }
 
     void Update()
     {
-        AnimateWave(); // Chiama la funzione che anima l'onda
+        HandleSwipeMovement();
+        CheckSwipeEnd();
     }
 
-    void AnimateWave()
+    void HandleSwipeMovement()
     {
-        Vector3[] vertices = new Vector3[originalVertices.Length];
-        for (int i = 0; i < vertices.Length; i++)
+        // Gestisci swipe
+        if (Input.touchCount > 0)
         {
-            Vector3 vertex = originalVertices[i];
-            vertex.y += Mathf.Sin(Time.time * speed + vertex.x * frequency) * amplitude;
-            vertices[i] = vertex;
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
+            {
+                touchStartPos = touch.position;
+            }
+            else if (touch.phase == TouchPhase.Moved)
+            {
+                touchEndPos = touch.position;
+                // Sposta l'onda su in base allo swipe
+                float swipeDistance = touchEndPos.y - touchStartPos.y;
+                float movement = swipeDistance * Time.deltaTime * swipeSpeed;
+
+                // Movimento verticale dell'onda
+                transform.position = new Vector3(startPos.x, startPos.y + movement, startPos.z);
+            }
         }
-        mesh.vertices = vertices; // Applica i nuovi vertici
-        mesh.RecalculateNormals(); // Ricalcola le normali della mesh per illuminazione corretta
+
+        // Se l'onda raggiunge l'altezza desiderata, cambia scena
+        if (transform.position.y >= changeSceneHeight)
+        {
+            ChangeScene();
+        }
+    }
+
+    void CheckSwipeEnd()
+    {
+        if (transform.position.y >= changeSceneHeight)
+        {
+            // Se l'onda ha raggiunto l'altezza del cambio scena, cambia scena
+            ChangeScene();
+        }
+    }
+
+   // void ChangeScene()
+    {
+        // Cambia scena al termine dello swipe
+//        SceneManager.LoadScene("LoginScene"); // Cambia con il nome della scena di login
     }
 }
