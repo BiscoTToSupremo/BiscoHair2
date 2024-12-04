@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\albil\\BiscoHair2\\",
+  "WorkspaceRootPath": "C:\\Users\\giorr\\BiscoHair2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\albil\\BiscoHair2\\UserSettings\\Layouts\\default-2022.dwlt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserSettings\\Layouts\\default-2022.dwlt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "default-2022.dwlt",
-              "DocumentMoniker": "C:\\Users\\albil\\BiscoHair2\\UserSettings\\Layouts\\default-2022.dwlt",
-              "RelativeDocumentMoniker": "UserSettings\\Layouts\\default-2022.dwlt",
-              "ToolTip": "C:\\Users\\albil\\BiscoHair2\\UserSettings\\Layouts\\default-2022.dwlt",
-              "RelativeToolTip": "UserSettings\\Layouts\\default-2022.dwlt",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-15T09:51:41.326Z",
+              "Title": "PulsanteDiRegistrazione.cs",
+              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",
+              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:37:45.268Z",
               "EditorCaption": ""
             }
           ]

@@ -38,9 +38,9 @@ public class UserRegistrationController : MonoBehaviour
             return;
         }
 
-        if (password.Length < 6)
+        if (password.Length < 8)
         {
-            DisplayError("La password deve contenere almeno 6 caratteri.");
+            DisplayError("La password deve contenere almeno 8 caratteri.");
             return;
         }
 
