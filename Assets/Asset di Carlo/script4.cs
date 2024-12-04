@@ -5,11 +5,15 @@ public class WaveMesh : MonoBehaviour
 {
     public int resolution = 50;       // Numero di punti dell'onda
     public float width = 5f;         // Larghezza dell'onda
-    public float amplitude = 1f;     // Altezza dell'onda
-    public float wavelength = 2f;   // Lunghezza dell'onda
+    public float amplitudeMin = 0.5f; // Altezza minima casuale dell'onda
+    public float amplitudeMax = 1.5f; // Altezza massima casuale dell'onda
+    public float wavelengthMin = 2f; // Lunghezza d'onda minima casuale
+    public float wavelengthMax = 5f; // Lunghezza d'onda massima casuale
     public float speed = 1f;         // Velocità di animazione
     public float fillHeight = -2f;   // Altezza del riempimento
 
+    private float amplitude;         // Altezza attuale dell'onda
+    private float wavelength;        // Lunghezza d'onda attuale
     private Mesh mesh;
     private Vector3[] vertices;
     private int[] triangles;
@@ -18,6 +22,10 @@ public class WaveMesh : MonoBehaviour
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
+
+        // Genera valori casuali per altezza e lunghezza d'onda
+        amplitude = Random.Range(amplitudeMin, amplitudeMax);
+        wavelength = Random.Range(wavelengthMin, wavelengthMax);
 
         CreateMesh();
     }
@@ -63,11 +71,14 @@ public class WaveMesh : MonoBehaviour
 
     void UpdateWave()
     {
+        // Calcola un fattore di scala per la velocità
+        float scaledSpeed = speed * 0.1f;
+
         // Anima i vertici superiori
         for (int i = 0; i < resolution; i++)
         {
             float x = vertices[i].x;
-            vertices[i].y = Mathf.Sin((x + Time.time * speed) * Mathf.PI * 2 / wavelength) * amplitude;
+            vertices[i].y = Mathf.Sin((x + Time.time * scaledSpeed) * Mathf.PI * 2 / wavelength) * amplitude;
         }
 
         // Aggiorna la mesh

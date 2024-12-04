@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\BiscoHair2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carlo\\BiscoHair2\\Assets\\Shader\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\wave.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\carlo\\BiscoHair2\\Assets\\Scenes\\MainActivity.unity||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\MainActivity.unity||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "wave.shader",
-              "DocumentMoniker": "C:\\Users\\carlo\\BiscoHair2\\Assets\\Shader\\wave.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\wave.shader",
-              "ToolTip": "C:\\Users\\carlo\\BiscoHair2\\Assets\\Shader\\wave.shader",
-              "RelativeToolTip": "Assets\\Shader\\wave.shader",
-              "ViewState": "AgIAACcAAAAAAAAAAADwv0cAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-15T15:42:22.226Z",
-              "EditorCaption": ""
+              "Title": "MainActivity.unity",
+              "DocumentMoniker": "C:\\Users\\carlo\\BiscoHair2\\Assets\\Scenes\\MainActivity.unity",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\MainActivity.unity",
+              "ToolTip": "C:\\Users\\carlo\\BiscoHair2\\Assets\\Scenes\\MainActivity.unity",
+              "RelativeToolTip": "Assets\\Scenes\\MainActivity.unity",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJOSURBVDhPjVM5i1pRFD6u4IILPPV1gqA4EEilNhYT1MJCJIIW8QcoTmOR9IpWA7GbYog2goUISRcELTSgwnRTBQWxsHCLCwruS869eUpkwpAPvneXc893lnsfvIZYLOaMx\u002BMObvkSp9OJx02vkEgkbg6Hw0cej/eB28rtdrvPyWTyJ7e\u002B4EoAIzI4hNHxDsnu93u6LxQKydDDgA/IRzz3ixoQVCCVSkkWi4UPp5/Q8S1xZBgGVCoVMcN0OoXxeEyFUOAZx3uj0fgtEAisBOSATqcLi8XiL0hWJBKBxWIBr9cLAoEAtFotOBwOOB6PMBwOiQDb6XTe53K5wWg0eqK5TSYTZj6f80wmE0QiEdDr9dBsNqFerwNmBDKZDNxuN5jNZohGo1AsFvnb7ZaUC3zyQZzO9SoUCkAjnZNsCAmwRDr2\u002B/2z/UQ\u002BZ4ELsNtQLpdpvcFgEPx\u002BP8kQ0uk0bDYbmtHfeCFAIlarVcD7h3a7DY1GA3w\u002BHxQKBWp7VYCkViqVYLlc0s6TyL1eDwaDAS0hm83Cer3mTv8BvQVs3jvs\u002BC1xkkqlEAqFwGAwgEajoYesVittbj6fh1qtRm6CbFeRlbPAG0zNjQbebDajtdpsNmBZFtRqNcjlcshkMpfsEEfkV\u002BQTLQgbJVmtVj4UuTwk4uxyuaDVatEGdrtdcpTgGXmPJALrq454PB4GBcKYyR0uWRSFSqUC3BX3kA/IR\u002BTlKdMSzsBoS3xAP/CZfufz\u002BRJ0vMHIe/yxsmgOI0lUWsN/wW63O5VKpZNb/gMAvwEXTQcJNnvajQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-12-04T10:06:49.294Z"
             }
           ]
         }
