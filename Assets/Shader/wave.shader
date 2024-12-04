@@ -1,56 +1,74 @@
-Shader "Custom/WaveEffect"
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SwipeWave : MonoBehaviour
 {
-    Properties
+    private Vector3 startPos;
+    private Vector3 endPos;
+    private bool isSwiping = false;
+    private float swipeSpeed = 5f;
+    private float changeSceneHeight = 10f; // L'altezza a cui l'onda triggera il cambio scena
+
+    // Riferimento alla camera per rilevare lo swipe
+    private Camera mainCamera;
+
+    // Variabili per tracciare il movimento dello swipe
+    private Vector2 touchStartPos;
+    private Vector2 touchEndPos;
+
+    void Start()
     {
-        _MainTex ("Texture", 2D) = "white" {}
-        _WaveSpeed ("Wave Speed", Float) = 1.0
-        _WaveStrength ("Wave Strength", Float) = 0.1
+        startPos = transform.position;
+        mainCamera = Camera.main;
     }
-    SubShader
+
+    void Update()
     {
-        Tags { "RenderType"="Opaque" }
-        LOD 200
+        HandleSwipeMovement();
+        CheckSwipeEnd();
+    }
 
-        Pass
+    void HandleSwipeMovement()
+    {
+        // Gestisci swipe
+        if (Input.touchCount > 0)
         {
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-
-            sampler2D _MainTex;
-            float _WaveSpeed;
-            float _WaveStrength;
-
-            struct appdata
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
             {
-                float4 vertex : POSITION;
-                float2 uv : TEXCOORD0;
-            };
-
-            struct v2f
-            {
-                float2 uv : TEXCOORD0;
-                float4 pos : SV_POSITION;
-            };
-
-            float _Time;
-
-            v2f vert (appdata v)
-            {
-                v2f o;
-                o.pos = UnityObjectToClipPos(v.vertex);
-                
-                // Movimento sinusoidale basato sul tempo
-                o.uv = v.uv + float2(0, sin(v.uv.x * 10 + _Time * _WaveSpeed) * _WaveStrength);
-                
-                return o;
+                touchStartPos = touch.position;
             }
-
-            fixed4 frag (v2f i) : SV_Target
+            else if (touch.phase == TouchPhase.Moved)
             {
-                return tex2D(_MainTex, i.uv);
+                touchEndPos = touch.position;
+                // Sposta l'onda su in base allo swipe
+                float swipeDistance = touchEndPos.y - touchStartPos.y;
+                float movement = swipeDistance * Time.deltaTime * swipeSpeed;
+
+                // Movimento verticale dell'onda
+                transform.position = new Vector3(startPos.x, startPos.y + movement, startPos.z);
             }
-            ENDCG
         }
+
+        // Se l'onda raggiunge l'altezza desiderata, cambia scena
+        if (transform.position.y >= changeSceneHeight)
+        {
+            ChangeScene();
+        }
+    }
+
+    void CheckSwipeEnd()
+    {
+        if (transform.position.y >= changeSceneHeight)
+        {
+            // Se l'onda ha raggiunto l'altezza del cambio scena, cambia scena
+            ChangeScene();
+        }
+    }
+
+   // void ChangeScene()
+    {
+        // Cambia scena al termine dello swipe
+//        SceneManager.LoadScene("LoginScene"); // Cambia con il nome della scena di login
     }
 }
