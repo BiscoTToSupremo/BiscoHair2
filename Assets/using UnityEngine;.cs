@@ -7,10 +7,8 @@ public class SceneSwitcher : MonoBehaviour
 {
     // Bottone che cambia la scena
     public Button yourButton;
-
     void Start()
     {
-        // Aggiungi un listener per il bottone
         yourButton.onClick.AddListener(OnButtonClick);
     }
 
@@ -31,11 +29,11 @@ public class SceneSwitcher : MonoBehaviour
             i++;
             if (i==2)
             {
-                Console.WriteLine("Il permesso non è stato concesso.");
+                Debug.Log("Il permesso non è stato concesso.");
             }
             else
             {
-                void OnButtonClick();
+                OnButtonClick();
 
             }
             
