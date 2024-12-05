@@ -621,11 +621,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 1920}
-<<<<<<< HEAD:Assets/Scenes/SampleScene.unity
-  m_ScreenMatchMode: 1
-=======
   m_ScreenMatchMode: 0
->>>>>>> franghein:Assets/Scenes/MainActivity.unity
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -5986,17 +5982,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 189559420}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:Assets/Scenes/SampleScene.unity
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -565}
-  m_SizeDelta: {x: 0, y: -1148.0782}
-=======
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -6976, y: 2957}
   m_SizeDelta: {x: 3151.1, y: 2121.033}
->>>>>>> franghein:Assets/Scenes/MainActivity.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1543400220
 MonoBehaviour:
@@ -6042,17 +6031,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1543400218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD:Assets/Scenes/SampleScene.unity
-  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AspectMode: 2
-  m_AspectRatio: 1.0075362
-=======
   m_Script: {fileID: 11500000, guid: 2ca0bd74a9022284992f8f4766a45bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
->>>>>>> franghein:Assets/Scenes/MainActivity.unity
 --- !u!1 &1545687380
 GameObject:
   m_ObjectHideFlags: 0
