@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainActivity.unity
-    guid: 4755b35b590504809a7525fd2109c2e2
+    path: Assets/Scenes/Resolved_MainActivity.unity
+    guid: c62871aa2aa0a934d8388e4d24c23766
+  - enabled: 1
+    path: Assets/Scenes/AnteprimaVideo.unity
+    guid: 4380f30c9781a5f4aad6ef589bd422fc
+  - enabled: 1
+    path: Assets/Scenes/CameraScene.unity
+    guid: ca3372af9b693734dac4b7dbabfd511d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
