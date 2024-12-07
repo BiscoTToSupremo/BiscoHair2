@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
+
 
 public class UserRegistrationController : MonoBehaviour
 {
@@ -10,6 +13,7 @@ public class UserRegistrationController : MonoBehaviour
     public TMP_InputField passwordField;
     public TMP_InputField confirmPasswordField;
     public TMP_Text errorText;
+    
 
     public void OnRegisterButtonClicked()
     {
@@ -26,7 +30,7 @@ public class UserRegistrationController : MonoBehaviour
             return;
         }
 
-        if (!email.Contains("@"))
+        if (!email.Contains("@") || email.Length < 3)
         {
             DisplayError("Inserire un'email valida.");
             return;
@@ -55,11 +59,19 @@ public class UserRegistrationController : MonoBehaviour
         errorText.color = success ? Color.green : Color.red;
     }
 
+
+   
+
     private void SaveUserData(string username, string email, string password)
     {
-        // Simulazione di salvataggio dei dati (locale o server)
+        PlayerPrefs.SetString("Username", username);
+        PlayerPrefs.SetString("Email", email);
+        PlayerPrefs.SetString("Password", password); // Nota: la password non dovrebbe essere salvata in chiaro.
+        PlayerPrefs.Save();
         Debug.Log($"Utente registrato: {username}, {email}");
-        // Integrazione con un sistema di backend se necessario
+        SceneManager.LoadScene(Assets / Scenes / Login.unity);
+
     }
 }
+
 

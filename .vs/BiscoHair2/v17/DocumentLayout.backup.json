@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\giorr\\BiscoHair2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BottoneLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BottoneLogin.cs",
+              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BottoneLogin.cs",
+              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BottoneLogin.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:15:26.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PulsanteDiRegistrazione.cs",
               "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",
               "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",
               "RelativeToolTip": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T15:37:45.268Z",
               "EditorCaption": ""

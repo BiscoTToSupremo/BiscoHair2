@@ -14,7 +14,8 @@ public class UserLoginController : MonoBehaviour
     {
         string username = usernameField.text;
         string password = passwordField.text;
-       
+        
+
 
         // Validazione dei dati
         if (string.IsNullOrEmpty(username)||string.IsNullOrEmpty(password))
@@ -23,8 +24,16 @@ public class UserLoginController : MonoBehaviour
             return;
         }
 
+        if (username = PlayerPrefs.GetString("Username", "N/A") | password = PlayerPrefs.GetString("Password", "N/A"))
+        {
+            DisplayError("Credenziali Errate.");
+            return;
+        }
+            else
+            {
+                LoadUserData();
+            }
         
-
        
 
         if (password.Length < 8)
@@ -44,11 +53,13 @@ public class UserLoginController : MonoBehaviour
         errorText.color = success ? Color.green : Color.red;
     }
 
-    private void SaveUserData(string username,string password)
+    public void LoadUserData()
     {
-        // Simulazione di salvataggio dei dati (locale o server)
-        Debug.Log($"Utente convalidato: {username}");
-        // Integrazione con un sistema di backend se necessario
+        string username = PlayerPrefs.GetString("Username", "N/A");
+        string email = PlayerPrefs.GetString("Email", "N/A");
+        string password = PlayerPrefs.GetString("Password", "N/A");
+
+        Debug.Log($"Username: {username}, Email: {email}, Password: {password}");
     }
 }
 
