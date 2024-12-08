@@ -24,7 +24,7 @@ public class UserLoginController : MonoBehaviour
             return;
         }
 
-        if (username = PlayerPrefs.GetString("Username", "N/A") | password = PlayerPrefs.GetString("Password", "N/A"))
+        if (username != PlayerPrefs.GetString("Username", "N/A") || password != PlayerPrefs.GetString("Password", "N/A"))
         {
             DisplayError("Credenziali Errate.");
             return;
@@ -43,7 +43,7 @@ public class UserLoginController : MonoBehaviour
         }
 
         // Registrazione riuscita
-        SaveUserData(username, password);
+        
         DisplayError("Login completato!", true); // true per messaggi di successo
     }
 

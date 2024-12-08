@@ -266,6 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187650309}
   - component: {fileID: 187650310}
+  - component: {fileID: 187650311}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -307,6 +308,19 @@ MonoBehaviour:
   usernameField: {fileID: 426304033}
   passwordField: {fileID: 1736760422}
   errorText: {fileID: 1949624824}
+--- !u!114 &187650311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187650308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e1e1ad49faad84da77beb77089574e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelImage: {fileID: 969932025}
 --- !u!1 &209947463
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,7 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.47058824, g: 0.5294118, b: 0.99215686, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
