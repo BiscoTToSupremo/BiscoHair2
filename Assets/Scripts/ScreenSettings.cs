@@ -17,6 +17,7 @@ public class ScreenSettings : MonoBehaviour
         {
             statusText.text = "Modalità chiara attiva";
         }
+        SaveColor();
     }
 
     // Cambia il colore in scuro
@@ -30,6 +31,19 @@ public class ScreenSettings : MonoBehaviour
         {
             statusText.text = "Modalità scura attiva";
         }
+        SaveColor();
     }
-}
+
+    public void SaveColor()
+    {
+        // Salva i componenti RGBA del colore nei PlayerPrefs
+        Color panelColor = background.color;
+        PlayerPrefs.SetFloat("Panel_R", panelColor.r);
+        PlayerPrefs.SetFloat("Panel_G", panelColor.g);
+        PlayerPrefs.SetFloat("Panel_B", panelColor.b);
+        PlayerPrefs.SetFloat("Panel_A", panelColor.a);
+        PlayerPrefs.Save();
+    }
+    }
+
 
