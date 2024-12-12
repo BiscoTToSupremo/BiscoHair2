@@ -1,0 +1,382 @@
+[1mdiff --git a/.vs/BiscoHair2/v17/DocumentLayout.backup.json b/.vs/BiscoHair2/v17/DocumentLayout.backup.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f7ebda2[m
+[1m--- /dev/null[m
+[1m+++ b/.vs/BiscoHair2/v17/DocumentLayout.backup.json[m
+[36m@@ -0,0 +1,88 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "Version": 1,[m
+[32m+[m[32m  "WorkspaceRootPath": "C:\\Users\\giorr\\BiscoHair2\\",[m
+[32m+[m[32m  "Documents": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PanelColor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PanelColor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BottoneLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScreenSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m    }[m
+[32m+[m[32m  ],[m
+[32m+[m[32m  "DocumentGroupContainers": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "Orientation": 0,[m
+[32m+[m[32m      "VerticalTabListWidth": 256,[m
+[32m+[m[32m      "DocumentGroups": [[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "DockedWidth": 200,[m
+[32m+[m[32m          "SelectedChildIndex": 0,[m
+[32m+[m[32m          "Children": [[m
+[32m+[m[32m            {[m
+[32m+[m[32m              "$type": "Document",[m
+[32m+[m[32m              "DocumentIndex": 0,[m
+[32m+[m[32m              "Title": "PanelColor.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-08T17:29:07.838Z",[m
+[32m+[m[32m              "EditorCaption": ""[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m              "$type": "Document",[m
+[32m+[m[32m              "DocumentIndex": 3,[m
+[32m+[m[32m              "Title": "ScreenSettings.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-08T17:16:40.259Z",[m
+[32m+[m[32m              "EditorCaption": ""[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m              "$type": "Document",[m
+[32m+[m[32m              "DocumentIndex": 2,[m
+[32m+[m[32m              "Title": "BottoneLogin.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABOAAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-04T17:15:26.717Z",[m
+[32m+[m[32m              "EditorCaption": ""[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m              "$type": "Document",[m
+[32m+[m[32m              "DocumentIndex": 1,[m
+[32m+[m[32m              "Title": "PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEcAAAAoAAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-04T15:37:45.268Z",[m
+[32m+[m[32m              "EditorCaption": ""[m
+[32m+[m[32m            }[m
+[32m+[m[32m          ][m
+[32m+[m[32m        }[m
+[32m+[m[32m      ][m
+[32m+[m[32m    }[m
+[32m+[m[32m  ][m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/.vs/BiscoHair2/v17/DocumentLayout.json b/.vs/BiscoHair2/v17/DocumentLayout.json[m
+[1mindex 9ea5fac..b1f5ae3 100644[m
+[1m--- a/.vs/BiscoHair2/v17/DocumentLayout.json[m
+[1m+++ b/.vs/BiscoHair2/v17/DocumentLayout.json[m
+[36m@@ -1,10 +1,22 @@[m
+ {[m
+   "Version": 1,[m
+[31m-  "WorkspaceRootPath": "C:\\Users\\albil\\BiscoHair2\\",[m
+[32m+[m[32m  "WorkspaceRootPath": "C:\\Users\\giorr\\BiscoHair2\\",[m
+   "Documents": [[m
+     {[m
+[31m-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\albil\\BiscoHair2\\UserSettings\\Layouts\\default-2022.dwlt||{8B382828-6202-11D1-8870-0000F87579D2}",[m
+[31m-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserSettings\\Layouts\\default-2022.dwlt||{8B382828-6202-11D1-8870-0000F87579D2}"[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScreenSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PanelColor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PanelColor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PulsanteDiRegistrazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",[m
+[32m+[m[32m      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BottoneLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"[m
+     }[m
+   ],[m
+   "DocumentGroupContainers": [[m
+[36m@@ -14,20 +26,57 @@[m
+       "DocumentGroups": [[m
+         {[m
+           "DockedWidth": 200,[m
+[31m-          "SelectedChildIndex": 0,[m
+[32m+[m[32m          "SelectedChildIndex": 1,[m
+           "Children": [[m
+[32m+[m[32m            {[m
+[32m+[m[32m              "$type": "Document",[m
+[32m+[m[32m              "DocumentIndex": 1,[m
+[32m+[m[32m              "Title": "PanelColor.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\PanelColor.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-08T17:29:07.838Z",[m
+[32m+[m[32m              "EditorCaption": ""[m
+[32m+[m[32m            },[m
+             {[m
+               "$type": "Document",[m
+               "DocumentIndex": 0,[m
+[31m-              "Title": "default-2022.dwlt",[m
+[31m-              "DocumentMoniker": "C:\\Users\\albil\\BiscoHair2\\UserSettings\\Layouts\\default-2022.dwlt",[m
+[31m-              "RelativeDocumentMoniker": "UserSettings\\Layouts\\default-2022.dwlt",[m
+[31m-              "ToolTip": "C:\\Users\\albil\\BiscoHair2\\UserSettings\\Layouts\\default-2022.dwlt",[m
+[31m-              "RelativeToolTip": "UserSettings\\Layouts\\default-2022.dwlt",[m
+[31m-              "ViewState": "AgIAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",[m
+[31m-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",[m
+[31m-              "WhenOpened": "2024-10-15T09:51:41.326Z",[m
+[32m+[m[32m              "Title": "ScreenSettings.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\ScreenSettings.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-08T17:16:40.259Z",[m
+               "EditorCaption": ""[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m              "$type": "Document",[m
+[32m+[m[32m              "DocumentIndex": 3,[m
+[32m+[m[32m              "Title": "BottoneLogin.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\BottoneLogin.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABOAAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-04T17:15:26.717Z"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m              "$type": "Document",[m
+[32m+[m[32m              "DocumentIndex": 2,[m
+[32m+[m[32m              "Title": "PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "RelativeDocumentMoniker": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "RelativeToolTip": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",[m
+[32m+[m[32m              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEcAAAAoAAAAAAAAAA==",[m
+[32m+[m[32m              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",[m
+[32m+[m[32m              "WhenOpened": "2024-12-04T15:37:45.268Z"[m
+             }[m
+           ][m
+         }[m
+[1mdiff --git a/Assets/ProvaBottone/Bottone.png b/Assets/ProvaBottone/Bottone.png[m
+[1mdeleted file mode 100644[m
+[1mindex c2355a7..0000000[m
+Binary files a/Assets/ProvaBottone/Bottone.png and /dev/null differ
+[1mdiff --git a/Assets/ProvaBottone/Bottone.png.meta b/Assets/ProvaBottone/Bottone.png.meta[m
+[1mdeleted file mode 100644[m
+[1mindex e613dd6..0000000[m
+[1m--- a/Assets/ProvaBottone/Bottone.png.meta[m
+[1m+++ /dev/null[m
+[36m@@ -1,153 +0,0 @@[m
+[31m-fileFormatVersion: 2[m
+[31m-guid: bc8bb4270036cec4db4bae76d4a3bbe6[m
+[31m-TextureImporter:[m
+[31m-  internalIDToNameTable: [][m
+[31m-  externalObjects: {}[m
+[31m-  serializedVersion: 13[m
+[31m-  mipmaps:[m
+[31m-    mipMapMode: 0[m
+[31m-    enableMipMap: 0[m
+[31m-    sRGBTexture: 1[m
+[31m-    linearTexture: 0[m
+[31m-    fadeOut: 0[m
+[31m-    borderMipMap: 0[m
+[31m-    mipMapsPreserveCoverage: 0[m
+[31m-    alphaTestReferenceValue: 0.5[m
+[31m-    mipMapFadeDistanceStart: 1[m
+[31m-    mipMapFadeDistanceEnd: 3[m
+[31m-  bumpmap:[m
+[31m-    convertToNormalMap: 0[m
+[31m-    externalNormalMap: 0[m
+[31m-    heightScale: 0.25[m
+[31m-    normalMapFilter: 0[m
+[31m-    flipGreenChannel: 0[m
+[31m-  isReadable: 0[m
+[31m-  streamingMipmaps: 0[m
+[31m-  streamingMipmapsPriority: 0[m
+[31m-  vTOnly: 0[m
+[31m-  ignoreMipmapLimit: 0[m
+[31m-  grayScaleToAlpha: 0[m
+[31m-  generateCubemap: 6[m
+[31m-  cubemapConvolution: 0[m
+[31m-  seamlessCubemap: 0[m
+[31m-  textureFormat: 1[m
+[31m-  maxTextureSize: 2048[m
+[31m-  textureSettings:[m
+[31m-    serializedVersion: 2[m
+[31m-    filterMode: 1[m
+[31m-    aniso: 1[m
+[31m-    mipBias: 0[m
+[31m-    wrapU: 1[m
+[31m-    wrapV: 1[m
+[31m-    wrapW: 0[m
+[31m-  nPOTScale: 0[m
+[31m-  lightmap: 0[m
+[31m-  compressionQuality: 50[m
+[31m-  spriteMode: 1[m
+[31m-  spriteExtrude: 1[m
+[31m-  spriteMeshType: 1[m
+[31m-  alignment: 0[m
+[31m-  spritePivot: {x: 0.5, y: 0.5}[m
+[31m-  spritePixelsToUnits: 100[m
+[31m-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}[m
+[31m-  spriteGenerateFallbackPhysicsShape: 1[m
+[31m-  alphaUsage: 1[m
+[31m-  alphaIsTransparency: 1[m
+[31m-  spriteTessellationDetail: -1[m
+[31m-  textureType: 8[m
+[31m-  textureShape: 1[m
+[31m-  singleChannelComponent: 0[m
+[31m-  flipbookRows: 1[m
+[31m-  flipbookColumns: 1[m
+[31m-  maxTextureSizeSet: 0[m
+[31m-  compressionQualitySet: 0[m
+[31m-  textureFormatSet: 0[m
+[31m-  ignorePngGamma: 0[m
+[31m-  applyGammaDecoding: 0[m
+[31m-  swizzle: 50462976[m
+[31m-  cookieLightType: 0[m
+[31m-  platformSettings:[m
+[31m-  - serializedVersion: 3[m
+[31m-    buildTarget: DefaultTexturePlatform[m
+[31m-    maxTextureSize: 2048[m
+[31m-    resizeAlgorithm: 0[m
+[31m-    textureFormat: -1[m
+[31m-    textureCompression: 1[m
+[31m-    compressionQuality: 50[m
+[31m-    crunchedCompression: 0[m
+[31m-    allowsAlphaSplitting: 0[m
+[31m-    overridden: 0[m
+[31m-    ignorePlatformSupport: 0[m
+[31m-    androidETC2FallbackOverride: 0[m
+[31m-    forceMaximumCompressionQuality_BC6H_BC7: 0[m
+[31m-  - serializedVersion: 3[m
+[31m-    buildTarget: Standalone[m
+[31m-    maxTextureSize: 2048[m
+[31m-    resizeAlgorithm: 0[m
+[31m-    textureFormat: -1[m
+[31m-    textureCompression: 1[m
+[31m-    compressionQuality: 50[m
+[31m-    crunchedCompression: 0[m
+[31m-    allowsAlphaSplitting: 0[m
+[31m-    overridden: 0[m
+[31m-    ignorePlatformSupport: 0[m
+[31m-    androidETC2FallbackOverride: 0[m
+[31m-    forceMaximumCompressionQuality_BC6H_BC7: 0[m
+[31m-  - serializedVersion: 3[m
+[31m-    buildTarget: iPhone[m
+[31m-    maxTextureSize: 2048[m
+[31m-    resizeAlgorithm: 0[m
+[31m-    textureFormat: -1[m
+[31m-    textureCompression: 1[m
+[31m-    compressionQuality: 50[m
+[31m-    crunchedCompression: 0[m
+[31m-    allowsAlphaSplitting: 0[m
+[31m-    overridden: 0[m
+[31m-    ignorePlatformSupport: 0[m
+[31m-    androidETC2FallbackOverride: 0[m
+[31m-    forceMaximumCompressionQuality_BC6H_BC7: 0[m
+[31m-  - serializedVersion: 3[m
+[31m-    buildTarget: WebGL[m
+[31m-    maxTextureSize: 2048[m
+[31m-    resizeAlgorithm: 0[m
+[31m-    textureFormat: -1[m
+[31m-    textureCompression: 1[m
+[31m-    compressionQuality: 50[m
+[31m-    crunchedCompression: 0[m
+[31m-    allowsAlphaSplitting: 0[m
+[31m-    overridden: 0[m
+[31m-    ignorePlatformSupport: 0[m
+[31m-    androidETC2FallbackOverride: 0[m
+[31m-    forceMaximumCompressionQuality_BC6H_BC7: 0[m
+[31m-  - serializedVersion: 3[m
+[31m-    buildTarget: Android[m
+[31m-    maxTextureSize: 2048[m
+[31m-    resizeAlgorithm: 0[m
+[31m-    textureFormat: -1[m
+[31m-    textureCompression: 1[m
+[31m-    compressionQuality: 50[m
+[31m-    crunchedCompression: 0[m
+[31m-    allowsAlphaSplitting: 0[m
+[31m-    overridden: 0[m
+[31m-    ignorePlatformSupport: 0[m
+[31m-    androidETC2FallbackOverride: 0[m
+[31m-    forceMaximumCompressionQuality_BC6H_BC7: 0[m
+[31m-  spriteSheet:[m
+[31m-    serializedVersion: 2[m
+[31m-    sprites: [][m
+[31m-    outline: [][m
+[31m-    physicsShape: [][m
+[31m-    bones: [][m
+[31m-    spriteID: 5e97eb03825dee720800000000000000[m
+[31m-    internalID: 0[m
+[31m-    vertices: [][m
+[31m-    indices: [m
+[31m-    edges: [][m
+[31m-    weights: [][m
+[31m-    secondaryTextures: [][m
+[31m-    nameFileIdTable: {}[m
+[31m-  mipmapLimitGroupName: [m
+[31m-  pSDRemoveMatte: 0[m
+[31m-  userData: [m
+[31m-  assetBundleName: [m
+[31m-  assetBundleVariant: [m
+[1mdiff --git a/Assets/ProvaBottone/Bottone1.png b/Assets/ProvaBottone/Bottone1.png[m
+[1mdeleted file mode 100644[m
+[1mindex 6c953e7..0000000[m
+Binary files a/Assets/ProvaBottone/Bottone1.png and /dev/null differ
+[1mdiff --git a/Assets/ProvaBottone/Bottone1.png.meta b/Assets/ProvaBottone/Bottone1.png.meta[m
+[1mdeleted file mode 100644[m
+[1mindex 5766b3e..0000000[m
+[1m--- a/Assets/ProvaBottone/Bottone1.png.meta[m
+[1m+++ /dev/null[m
+[36m@@ -1,153 +0,0 @@[m
+[31m-fileFormatVersion: 2[m
+[31m-guid: a6b87ceafb9bf514094a9acd692421fb[m
+[31m-TextureImporter:[m
+[31m-  internalIDToNameTable: [][m
+[31m-  externalObjects: {}[m
+[31m-  serializedVersion: 13[m
+[31m-  mipmaps:[m
+[31m-    mipMapMode: 0[m
+[31m-    enableMipMap: 0[m
+[31m-    sRGBTexture: 1[m
+[31m-    linearTexture: 0[m
+[31m-    fadeOut: 0[m
+[31m-    borderMipMap: 0[m
+[31m-    mipMapsPreserveCoverage: 0[m
+[31m-    alphaTestReferenceValue: 0.5[m
+[31m-    mipMapFadeDistanceStart: 1[m
+[31
