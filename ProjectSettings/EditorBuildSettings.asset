@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Login.unity
     guid: 9d6644ac9d0b6114ca57bc691f344983
+  - enabled: 1
+    path: Assets/Scenes/Tentativo.unity
+    guid: 88dd0bb8aad03bc49b7782861bbccd75
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
