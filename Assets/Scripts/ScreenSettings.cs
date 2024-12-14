@@ -1,17 +1,22 @@
 using UnityEngine;
-using UnityEngine.UI; // Per accedere agli elementi UI
+using UnityEngine.UI;
 
 public class ScreenSettings : MonoBehaviour
 {
-    public Image background; // L'elemento UI dello sfondo
+    public Image background; // Elemento UI dello sfondo
     public Text statusText; // Per mostrare il messaggio
 
-    // Cambia il colore in chiaro
+    void Start()
+    {
+        // Applica il colore salvato all'avvio della scena
+        LoadColor();
+    }
+
     public void SetLightMode()
     {
         if (background != null)
         {
-            background.color = new Color(120f / 255f, 135f / 255f,253f / 255f); // Blu chiaro
+            background.color = new Color(120f / 255f, 135f / 255f, 253f / 255f); // Blu chiaro
         }
         if (statusText != null)
         {
@@ -19,24 +24,20 @@ public class ScreenSettings : MonoBehaviour
         }
         SaveColor();
     }
-    // Cambia il colore in nero
+
     public void SetSystemMode()
     {
         if (background != null)
-        { 
+        {
             background.color = Color.black; // Colore nero
         }
         if (statusText != null)
         {
-            statusText.text = "Modalità di sistema attiva"; // Messaggio di stato
+            statusText.text = "Modalità di sistema attiva";
         }
         SaveColor();
     }
 
-
-
-
-    // Cambia il colore in scuro
     public void SetDarkMode()
     {
         if (background != null)
@@ -60,6 +61,21 @@ public class ScreenSettings : MonoBehaviour
         PlayerPrefs.SetFloat("Panel_A", panelColor.a);
         PlayerPrefs.Save();
     }
+
+    public void LoadColor()
+    {
+        // Controlla se esistono valori salvati nei PlayerPrefs
+        if (PlayerPrefs.HasKey("Panel_R"))
+        {
+            float r = PlayerPrefs.GetFloat("Panel_R");
+            float g = PlayerPrefs.GetFloat("Panel_G");
+            float b = PlayerPrefs.GetFloat("Panel_B");
+            float a = PlayerPrefs.GetFloat("Panel_A");
+
+            // Applica il colore salvato allo sfondo
+            background.color = new Color(r, g, b, a);
+        }
     }
+}
 
 
