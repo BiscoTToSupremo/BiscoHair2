@@ -19,6 +19,22 @@ public class ScreenSettings : MonoBehaviour
         }
         SaveColor();
     }
+    // Cambia il colore in nero
+    public void SetSystemMode()
+    {
+        if (background != null)
+        { 
+            background.color = Color.black; // Colore nero
+        }
+        if (statusText != null)
+        {
+            statusText.text = "Modalità di sistema attiva"; // Messaggio di stato
+        }
+        SaveColor();
+    }
+
+
+
 
     // Cambia il colore in scuro
     public void SetDarkMode()
