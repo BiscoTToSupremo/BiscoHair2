@@ -156,8 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FacePrefab: {fileID: 7493605039762949275, guid: 96bfcb02ee74e774e8c1b1aa3cccd819,
-    type: 3}
+  m_FacePrefab: {fileID: 0}
   m_MaximumFaceCount: 2
 --- !u!114 &378334535
 MonoBehaviour:
@@ -245,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d0a9e2c1c90534fadc250bc82fd51f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hairPrefab: {fileID: 6689992741278781415, guid: 3549fdaf258e11846b85a316c16c699c,
+  hairPrefab: {fileID: 919132149155446097, guid: 3e1513bb6256a6245a54ddb736769f17,
     type: 3}
 --- !u!1 &812109368
 GameObject:
