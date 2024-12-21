@@ -69,9 +69,11 @@ public class UserRegistrationController : MonoBehaviour
         PlayerPrefs.SetString("Password", password); // Nota: la password non dovrebbe essere salvata in chiaro.
         PlayerPrefs.Save();
         Debug.Log($"Utente registrato: {username}, {email}");
-        SceneManager.LoadScene("Login");
+        SceneManager.LoadScene("AnteprimaVideo");
 
     }
+
+
 }
 
 

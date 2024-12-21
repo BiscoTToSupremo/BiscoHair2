@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UserLoginController : MonoBehaviour
 {
@@ -58,8 +59,11 @@ public class UserLoginController : MonoBehaviour
         string username = PlayerPrefs.GetString("Username", "N/A");
         string email = PlayerPrefs.GetString("Email", "N/A");
         string password = PlayerPrefs.GetString("Password", "N/A");
+        SceneManager.LoadScene("AnteprimaVideo");
 
         Debug.Log($"Username: {username}, Email: {email}, Password: {password}");
     }
+
+ 
 }
 

@@ -122,50 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &4275098
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4275100}
-  - component: {fileID: 4275099}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &4275099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4275098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53b58370795c39847903d99eeedd07fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &4275100
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4275098}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 948.77704, y: 1411.3031, z: -10.215285}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &153197561
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +267,7 @@ GameObject:
   - component: {fileID: 187650309}
   - component: {fileID: 187650310}
   - component: {fileID: 187650311}
+  - component: {fileID: 187650312}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -365,6 +322,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelImage: {fileID: 969932025}
+--- !u!114 &187650312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187650308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53b58370795c39847903d99eeedd07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &209947463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,10 +1215,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4275099}
-        m_TargetAssemblyTypeName: Bottone3, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 187650310}
+        m_TargetAssemblyTypeName: UserLoginController, Assembly-CSharp
+        m_MethodName: OnLoginButtonClicked
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2064,14 +2033,14 @@ RectTransform:
   m_GameObject: {fileID: 1949624823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.78078, y: 0.78078, z: 0.78078}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1855911808}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.52048707, y: 0.5}
-  m_AnchoredPosition: {x: -0.00002002716, y: -307}
+  m_AnchoredPosition: {x: -7, y: -380}
   m_SizeDelta: {x: 470.0833, y: 127.0217}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1973687494
@@ -2452,8 +2421,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: -269}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 1.6388, y: -265.7107}
+  m_SizeDelta: {x: 201.4192, y: 27.8244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2093297446
 MonoBehaviour:
@@ -2499,7 +2468,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4275099}
+      - m_Target: {fileID: 187650312}
         m_TargetAssemblyTypeName: Bottone3, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
@@ -2557,4 +2526,3 @@ SceneRoots:
   - {fileID: 2002712792}
   - {fileID: 1855911808}
   - {fileID: 2013489712}
-  - {fileID: 4275100}

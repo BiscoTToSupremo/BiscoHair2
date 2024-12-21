@@ -2086,11 +2086,11 @@ MonoBehaviour:
   italianTexts:
   - Impostazioni
   - "Selezione Tonalit\xE0"
-  - Chiara
-  - Scura
+  - CHIARA
+  - SCURA
   - Seleziona Lingua
-  - Italiano
-  - Inglese
+  - ITALIANO
+  - INGLESE
   englishTexts:
   - Settings
   - Select Tone
