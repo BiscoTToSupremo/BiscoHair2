@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Simulator
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 5437
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 52
+  controlID: 5438
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 53
+  controlID: 5439
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19
+  controlID: 5440
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 271.19995
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -358,16 +358,11 @@ MonoBehaviour:
     controlPanelWidth: 100
     controlPanelFoldoutKeys:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
-    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
-    controlPanelFoldoutValues: 0000
+    controlPanelFoldoutValues: 00
     pluginNames:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
     - UnityEngine.InputSystem.Editor.InputSystemPlugin
-    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
-    - UnityEngine.InputSystem.Editor.InputSystemPlugin
     pluginStates:
-    - '{}'
-    - '{}'
     - '{}'
     - '{}'
     scale: 17
@@ -418,7 +413,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 86d3ffffbce3ffff70e5ffff12e9ffff8aeafffff0ecffffe0edfffffeeeffff9ef0ffff36f6ffffeef6ffffeafaffff56880000328a0000ec8a0000128d0000aa8d00000a920000
+      m_ExpandedIDs: 8a7bffff4c7cffff9081ffff7282ffffbe85ffff9e86ffff8888ffff0a8affff2e8cffffec8cffffd28dffff448fffffc090ffff2c92ffff9093ffff2895ffff9a96ffff1298ffff029affffc49bffff049dffff349effff7a9fffffa2a0ffffaea2ffffcea3ffff12a5ffff48a6ffff9aa7ffff5ca8fffffaa9ffff3cacffff60adffff92afffff68b0ffff1ab1fffff0b1ffffa2b2ffff1cb8fffff2b8ffff0ebbffffd4bbffff7ac8ffffa0c9ffff84caffffdcceffff12d0ffffe0d6ffff74d8ffff36d9ffff4ce6ffffaeeaffff04f4ffffecfaffffae790000be790000ca790000f2790000fa790000a47f0000b47f00004e81000098810000c4820000008300009a880000ac8800002289000046890000588a0000e48a00000a8b0000bc8b0000ce8b0000248d0000488d0000589800007c9800002e99000054990000ce990000f29900002c9a0000529a0000b69b0000549c00002c9d0000ca9d0000a29e0000c69e00003e9f000018a00000b4a000008ea100002ca2000050a2000004a3000028a30000a2a30000c6a300007aa400009ea4000018a500003ca50000f0a5000014a600008ea60000b2a6000066a700008aa7000002a8000026a80000daa90000fea9000002ab000026ab000060ab000086ab0000eaac00009cae000096b10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -807,14 +802,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 574.0239, y: 786.28125, z: 0}
+    m_Target: {x: 426.98602, y: 1046.8931, z: -12.941985}
     speed: 2
-    m_Value: {x: 574.0239, y: 786.28125, z: 0}
+    m_Value: {x: 426.98602, y: 1046.8931, z: -12.941985}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -864,9 +859,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1801.8378
+    m_Target: 1341.8899
     speed: 2
-    m_Value: 1801.8378
+    m_Value: 1341.8899
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -947,14 +942,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes/New Folder
   m_LastFoldersGridSize: 32
-  m_LastProjectPath: C:\Users\giorr\BiscoHair2
+  m_LastProjectPath: C:\Users\frank\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e7d0000
-    m_LastClickedID: 32046
-    m_ExpandedIDs: 00000000ee7c0000f07c0000f27c0000f47c0000f67c0000f87c0000fa7c0000fc7c0000fe7c0000007d0000027d0000047d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 7.0002747}
+    m_SelectedIDs: 667f0000
+    m_LastClickedID: 32614
+    m_ExpandedIDs: 00000000ec7c0000ee7c0000f07c0000f27c00001c7d0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -982,7 +977,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee7c0000f07c0000f27c0000f47c0000f67c0000f87c0000fa7c0000fc7c0000fe7c0000007d0000027d0000047d0000
+    m_ExpandedIDs: 00000000ec7c0000ee7c0000f07c0000f27c0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1009,22 +1004,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fe8e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: BottoneImpostazioni
-      m_OriginalName: BottoneImpostazioni
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 32288
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
