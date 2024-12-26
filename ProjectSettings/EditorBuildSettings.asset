@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneDefinitive/Porcpioooooo.unity
     guid: e9f6c7e357f367d40b7eb836c8d002fb
+  - enabled: 1
+    path: Assets/Scenes/SceneDefinitive/HairstyleController.unity
+    guid: da8cc15c20320ed4887d631b66116624
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}

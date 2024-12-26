@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\giorr\\BiscoHair2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\SceneButtonSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneButtonSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenShotController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScreenShotController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SceneButtonSelector.cs",
+              "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\SceneButtonSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneButtonSelector.cs",
+              "ToolTip": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\SceneButtonSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneButtonSelector.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T11:00:35.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ScreenShotController.cs",
               "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenShotController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenShotController.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bottone3.cs",
               "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Bottone3.cs",
               "RelativeDocumentMoniker": "Assets\\Bottone3.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PanelColor.cs",
               "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PanelColor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PanelColor.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ScreenSettings.cs",
               "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\ScreenSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScreenSettings.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BottoneLogin.cs",
               "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\BottoneLogin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BottoneLogin.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PulsanteDiRegistrazione.cs",
               "DocumentMoniker": "C:\\Users\\giorr\\BiscoHair2\\Assets\\Scripts\\PulsanteDiRegistrazione.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PulsanteDiRegistrazione.cs",
