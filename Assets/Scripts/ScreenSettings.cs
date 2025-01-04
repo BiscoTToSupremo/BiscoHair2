@@ -20,7 +20,7 @@ public class ScreenSettings : MonoBehaviour
         }
         if (statusText != null)
         {
-            statusText.text = "Modalità chiara attiva";
+            statusText.text = "Modalitï¿½ chiara attiva";
         }
         SaveColor();
     }
@@ -33,22 +33,23 @@ public class ScreenSettings : MonoBehaviour
         }
         if (statusText != null)
         {
-            statusText.text = "Modalità di sistema attiva";
+            statusText.text = "Modalitï¿½ di sistema attiva";
         }
         SaveColor();
     }
-
-    public void SetDarkMode()
+public void SetDarkMode()
+{
+    if (background != null)
     {
-        if (background != null)
-        {
-            background.color = new Color(19f / 255f, 24f / 255f, 63f / 255f); // Blu scuro
-        }
-        if (statusText != null)
-        {
-            statusText.text = "Modalità scura attiva";
-        }
-        SaveColor();
+        background.color = new Color(19f / 255f, 24f / 255f, 63f / 255f); // #13183F
+    }
+    if (statusText != null)
+    {
+        statusText.text = "ModalitÃ  scura attiva";
+    }
+    SaveColor();
+}
+
     }
 
     public void SaveColor()
