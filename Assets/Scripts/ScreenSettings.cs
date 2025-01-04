@@ -49,10 +49,7 @@ public void SetDarkMode()
     }
     SaveColor();
 }
-
-    }
-
-    public void SaveColor()
+public void SaveColor()
     {
         // Salva i componenti RGBA del colore nei PlayerPrefs
         Color panelColor = background.color;
@@ -77,6 +74,8 @@ public void SetDarkMode()
             background.color = new Color(r, g, b, a);
         }
     }
-}
+
+    }
+
 
 
