@@ -41,7 +41,7 @@ public void SetDarkMode()
 {
     if (background != null)
     {
-        background.color = new Color(19f / 255f, 24f / 255f, 63f / 255f); // #13183F
+        background.color = new Color(22f / 255f, 22f / 255f, 64f / 255f); // #161640
     }
     if (statusText != null)
     {
