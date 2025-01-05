@@ -322,6 +322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ProssimoFiltro
       objectReference: {fileID: 0}
+    - target: {fileID: 7572136595296491661, guid: 36f945300a320d347addee9c1d4bfab7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7679877219831885417, guid: 36f945300a320d347addee9c1d4bfab7,
         type: 3}
       propertyPath: m_Pivot.x
@@ -699,7 +704,7 @@ PrefabInstance:
     - target: {fileID: 3160884467308343928, guid: 1c0f55dbe509001428f287b49078bbf7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Porcpioooooo
+      value: HairstyleController
       objectReference: {fileID: 0}
     - target: {fileID: 5008898087875207691, guid: 1c0f55dbe509001428f287b49078bbf7,
         type: 3}
@@ -906,7 +911,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 925854266}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &1423947922
+--- !u!43 &1419736509
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1167,7 +1172,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603388546}
-  m_Mesh: {fileID: 1423947922}
+  m_Mesh: {fileID: 1419736509}
 --- !u!1001 &1746118267
 PrefabInstance:
   m_ObjectHideFlags: 0

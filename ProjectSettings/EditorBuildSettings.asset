@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneDefinitive/AnteprimaVideo.unity
     guid: 4380f30c9781a5f4aad6ef589bd422fc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SceneDefinitive/HairstyleController.unity
     guid: da8cc15c20320ed4887d631b66116624
   - enabled: 1

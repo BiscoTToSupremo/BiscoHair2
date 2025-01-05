@@ -1,57 +1,49 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
-using System.Collections;
 
-public class ScreenshotController : MonoBehaviour
+public class ScreenshotCapture : MonoBehaviour
 {
-    public Button screenshotButton; // Riferimento al pulsante
-    private string screenshotPath;  // Percorso per salvare lo screenshot
+    public Button screenshotButton; // Assegna questo nel Inspector
 
     void Start()
     {
-        // Percorso per salvare gli screenshot (nella cartella persistente del dispositivo)
-        screenshotPath = Path.Combine(Application.persistentDataPath, "Screenshots");
-        if (!Directory.Exists(screenshotPath))
+        // Assicurati che il pulsante sia assegnato e aggiungi un listener per il click
+        if (screenshotButton != null)
         {
-            Directory.CreateDirectory(screenshotPath);
+            screenshotButton.onClick.AddListener(TakeScreen);
         }
     }
 
-    public void TakeScreenshot()
+    public void TakeScreen()
     {
-        // Disattiva il pulsante
-        screenshotButton.gameObject.SetActive(false);
+        // Disabilita temporaneamente tutti gli elementi UI
+        SetUIElementsActive(false);
 
-        // Scatta lo screenshot
-        StartCoroutine(CaptureScreenshot());
-
-        // Riattiva il pulsante dopo lo scatto
+        // Aspetta un frame per assicurarsi che gli elementi UI siano disabilitati
+        StartCoroutine(CaptureScreenshotAfterFrame());
     }
 
-    private IEnumerator CaptureScreenshot()
+    private System.Collections.IEnumerator CaptureScreenshotAfterFrame()
     {
-        yield return new WaitForEndOfFrame(); // Aspetta che il frame corrente finisca
+        yield return new WaitForEndOfFrame();
 
-        // Genera un nome unico per lo screenshot
-        string screenshotFileName = $"Screenshot_{System.DateTime.Now:yyyy-MM-dd_HH-mm-ss}.png";
-        string filePath = Path.Combine(screenshotPath, screenshotFileName);
+        // Cattura lo screenshot
+        string screenshotName = "Screenshot_" + System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss") + ".png";
+        ScreenCapture.CaptureScreenshot(screenshotName);
 
-        // Crea la texture per lo screenshot
-        Texture2D screenshotTexture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
-        screenshotTexture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-        screenshotTexture.Apply();
+        Debug.Log("Screenshot salvato come: " + screenshotName);
 
-        // Salva l'immagine come file PNG
-        byte[] imageBytes = screenshotTexture.EncodeToPNG();
-        File.WriteAllBytes(filePath, imageBytes);
+        // Riabilita gli elementi UI
+        SetUIElementsActive(true);
+    }
 
-        Debug.Log($"Screenshot salvato in: {filePath}");
-
-        // Rendi visibile il pulsante
-        screenshotButton.gameObject.SetActive(true);
-
-        // Elimina la texture per liberare memoria
-        Destroy(screenshotTexture);
+    void SetUIElementsActive(bool isActive)
+    {
+        // Trova tutti gli elementi UI e disabilitali/riabilitali
+        Canvas[] canvases = FindObjectsOfType<Canvas>();
+        foreach (Canvas canvas in canvases)
+        {
+            canvas.enabled = isActive;
+        }
     }
 }
