@@ -22,6 +22,8 @@ public class UserRegistrationController : MonoBehaviour
         string password = passwordField.text;
         string confirmPassword = confirmPasswordField.text;
 
+        
+
         // Validazione dei dati
         if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) ||
             string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword))
@@ -48,9 +50,13 @@ public class UserRegistrationController : MonoBehaviour
             return;
         }
 
+        
+
         // Registrazione riuscita
         SaveUserData(username, email, password);
         DisplayError("Registrazione completata!", true); // true per messaggi di successo
+
+        
     }
 
     private void DisplayError(string message, bool success = false)

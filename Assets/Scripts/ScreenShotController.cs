@@ -2,10 +2,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System.Collections;
+using TMPro;
+using UnityEngine.Android; // Per gestire i permessi su Android
 
 public class ScreenshotController : MonoBehaviour
 {
     public Button screenshotButton; // Riferimento al pulsante
+    public TMP_Text feedbackText; // Riferimento a un testo per il feedback
     private string screenshotPath;  // Percorso per salvare lo screenshot
 
     void Start()
@@ -16,17 +19,33 @@ public class ScreenshotController : MonoBehaviour
         {
             Directory.CreateDirectory(screenshotPath);
         }
+
+        // Assicurati che il feedback text sia disattivato all'inizio
+        if (feedbackText != null)
+        {
+            feedbackText.gameObject.SetActive(false);
+        }
+
+        // Richiedi il permesso di scrittura su Android
+        RequestWritePermission();
+    }
+
+    // Richiede il permesso di scrittura su Android
+    private void RequestWritePermission()
+    {
+        if (!Permission.HasUserAuthorizedPermission(Permission.ExternalStorageWrite))
+        {
+            Permission.RequestUserPermission(Permission.ExternalStorageWrite);
+        }
     }
 
     public void TakeScreenshot()
     {
         // Disattiva il pulsante
-        screenshotButton.gameObject.SetActive(false);
+        screenshotButton.interactable = false;
 
         // Scatta lo screenshot
         StartCoroutine(CaptureScreenshot());
-
-        // Riattiva il pulsante dopo lo scatto
     }
 
     private IEnumerator CaptureScreenshot()
@@ -48,8 +67,17 @@ public class ScreenshotController : MonoBehaviour
 
         Debug.Log($"Screenshot salvato in: {filePath}");
 
-        // Rendi visibile il pulsante
-        screenshotButton.gameObject.SetActive(true);
+        // Mostra un feedback visivo
+        if (feedbackText != null)
+        {
+            feedbackText.text = $"Screenshot salvato in: {filePath}";
+            feedbackText.gameObject.SetActive(true);
+            yield return new WaitForSeconds(2); // Mostra il feedback per 2 secondi
+            feedbackText.gameObject.SetActive(false);
+        }
+
+        // Rendi il pulsante di nuovo cliccabile
+        screenshotButton.interactable = true;
 
         // Elimina la texture per liberare memoria
         Destroy(screenshotTexture);
