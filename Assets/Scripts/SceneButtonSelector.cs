@@ -10,26 +10,7 @@ public class SwipeSceneSelector : MonoBehaviour
 
     private float swipeThreshold = 0.5f; // Valore per considerare uno swipe valido
 
-    void Update()
-    {
-        // Controlla lo swipe laterale
-        if (Input.GetMouseButtonUp(0)) // Rileva il rilascio del dito o clic
-        {
-            float normalizedPosition = scrollRect.horizontalNormalizedPosition;
-
-            if (normalizedPosition < currentIndex - swipeThreshold)
-            {
-                currentIndex = Mathf.Clamp(currentIndex + 1, 0, sceneButtons.Length - 1);
-            }
-            else if (normalizedPosition > currentIndex + swipeThreshold)
-            {
-                currentIndex = Mathf.Clamp(currentIndex - 1, 0, sceneButtons.Length - 1);
-            }
-
-            // Sposta al pulsante corretto
-            scrollRect.horizontalNormalizedPosition = (float)currentIndex / (sceneButtons.Length - 1);
-        }
-    }
+    
 
     public void LoadCurrentScene()
     {

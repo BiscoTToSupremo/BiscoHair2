@@ -286,7 +286,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458092135}
-  m_Mesh: {fileID: 943022792}
+  m_Mesh: {fileID: 1376071969}
 --- !u!4 &526263458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6524814566547069627, guid: 357b3575fc3e5e445ab29669c4fc2957,
@@ -605,7 +605,61 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 808065138}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &943022792
+--- !u!1 &1123399622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123399624}
+  - component: {fileID: 1123399623}
+  m_Layer: 0
+  m_Name: Zappar Multi Face Tracking Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1123399623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123399622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d439f73ae18deb147a07db96fda83b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FaceAnchors:
+  - {fileID: 740634166}
+--- !u!4 &1123399624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123399622}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1813596622}
+  - {fileID: 740634167}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1338809092 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7679877219831885417, guid: 36f945300a320d347addee9c1d4bfab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 8739323850512358738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!43 &1376071969
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -770,60 +824,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1123399622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1123399624}
-  - component: {fileID: 1123399623}
-  m_Layer: 0
-  m_Name: Zappar Multi Face Tracking Target
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1123399623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123399622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d439f73ae18deb147a07db96fda83b77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FaceAnchors:
-  - {fileID: 740634166}
---- !u!4 &1123399624
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123399622}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1813596622}
-  - {fileID: 740634167}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!224 &1338809092 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7679877219831885417, guid: 36f945300a320d347addee9c1d4bfab7,
-    type: 3}
-  m_PrefabInstance: {fileID: 8739323850512358738}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1470657428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1556,6 +1556,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ProssimoFiltro
       objectReference: {fileID: 0}
+    - target: {fileID: 7572136595296491661, guid: 36f945300a320d347addee9c1d4bfab7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7679877219831885417, guid: 36f945300a320d347addee9c1d4bfab7,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1701,6 +1706,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 526263459}
+    - target: {fileID: 3160884467308343928, guid: 1c0f55dbe509001428f287b49078bbf7,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: HairstyleController 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5008898087875207691, guid: 1c0f55dbe509001428f287b49078bbf7,
         type: 3}
       propertyPath: m_Name
